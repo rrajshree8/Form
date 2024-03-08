@@ -1,0 +1,67 @@
+.homecss {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+  background-image: linear-gradient(
+    to left,
+    #063a5d,
+    #07577e,
+    #05779f,
+    #0398bf,
+    #0fbadd
+  );
+  padding-bottom: 30px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50px;
+}
+.btn {
+  appearance: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 220px;
+  padding: 10px 18px;
+  height: 40px;
+  color: white;
+  background: #063a5d;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    background-color: #76bff0;
+    border: 1px solid #0fbadd;
+    color: black;
+    transition: 0.4s background ease-in;
+  }
+}
+.link {
+  text-decoration: none;
+}
+
+.ls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

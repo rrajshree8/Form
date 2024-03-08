@@ -1,0 +1,8 @@
+body,html{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,58,93,1) 6%, #0fbadd 100%);
+    overflow: hidden;
+}
